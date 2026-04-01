@@ -33,37 +33,17 @@ For other platforms, see the dedicated guides for [AMD GPUs](../hardware-platfor
   <Tab title="pip / uv (Recommended)">
     We recommend using **uv** for faster installation:
 
-1. **Upgrade pip**
-
 ```bash
 pip install --upgrade pip
-```
-
-2. **Install uv**
-
-```bash
 pip install uv
-```
-
-3. **Install SGLang**
-
-```bash
 uv pip install sglang
 ```
   </Tab>
   <Tab title="From Source">
-1. **Clone the release branch**
-
 ```bash
 # Use the last release branch
 git clone -b v0.5.6.post2 https://github.com/sgl-project/sglang.git
 cd sglang
-```
-
-2. **Install the Python packages**
-
-```bash
-# Install the python packages
 pip install --upgrade pip
 pip install -e "python"
 ```
